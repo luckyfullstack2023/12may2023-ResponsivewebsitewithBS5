@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box !important;
+}
+header{
+    background-color: #9933cc;
+}
+header>h2{
+    height:38px;
+    font-size: 2em; 
+}
+main>div>section>h1{
+    font-size: 2em;
+}
+main>div.l_1{
+    min-height:168px;
+}
+footer{
+    height:69px ; 
+    background-color: #0099cc;
+}
+@media only screen and (min-width:768px){
+    main>div>aside:last-child{
+        min-height:408px  !important;
+    }
+}
